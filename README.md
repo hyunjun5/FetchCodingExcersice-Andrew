@@ -1,4 +1,4 @@
-# FetchCodingExcersice-Andrew
+# FetchCodingExcersice-Hyunjun
 
 The code reads in a transactions.csv file within the current directory. 
 It will take one argument which is the points to be spent by the user. Once the csv is read, two data structures are going to be filled as we iterate through the rows, i.e. order and rtrn. rtrn is a dictionary which is going to be tracking the total points paid by payers and order is going to keep track of the list of transactions and will be sorted after processing the csv via a lambda function. 
