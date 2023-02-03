@@ -27,9 +27,8 @@ def main(argv):
 
         # for each transaction in the csv file
         for t in csvread:
-            t = t[0].split(",")
-
-            current = txn(t[0].strip('"'),int(t[1]),t[2].strip('"'))
+            
+            current = txn(t[0],int(t[1]),t[2])
             order.append(current)  
 
             if current.name in rtrn:    
